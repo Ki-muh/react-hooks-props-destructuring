@@ -1,5 +1,6 @@
 import React from "react";
 import MovieCard from "./MovieCard";
+import SocialMedia from "./SocialMedia";
 
 function App() {
   const title = "Mad Max";
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <MovieCard title={title} genres={genresArr} />
+      <SocialMedia />
     </div>
   );
 }
